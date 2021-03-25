@@ -4,6 +4,7 @@
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "pointLight" : false,
+  "timeToLive" : 1.25,
   "actionOnHit" : [
     {
       "action" : "config",

@@ -1,21 +1,21 @@
 {
-  "itemName" : "tenno-kohmak",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
+  "itemName" : "tenno-grakata",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
   "price" : 150,
-  "inventoryIcon" : "tenno-kohmak-i.png",
+  "inventoryIcon" : "tenno-grakata-i.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "",
-  "shortdescription" : "Kohmak",
+  "shortdescription" : "Grakata",
   "level" : 1,
   "tooltipKind" : "ammogun",//custom tooltip, values set by the .lua
   "category" : "uniqueWeapon",
   "itemTags" : ["weapon","ranged","pistol"],
   "twoHanded" : false,
   
-  "ammoMax" : 200,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
+  "ammoMax" : 800,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
   "ammoAmount" : 0,			//Holds the current amount of ammo. Mostly set dynamically
   "usesAmmo" : true,		//Used by ammo to determine if it should bother trying to load into the gun
-  "ammoTags" : ["tenno-shotgun","tenno-shotgun-shredder-tag"],	//Tags, specifying the kind of ammo the gun takes
+  "ammoTags" : ["tenno-pistol"],	//Tags, specifying the kind of ammo the gun takes
   "ammoName" : "",			//Used by the tooltip, set by ammo
   "ammoType" : "",			//Holds the name of currently used ammo item
   "ammoCasing" : false,		//Holds the name of casing item to be ejected
@@ -25,12 +25,12 @@
   "extraAmmoList" : [],		//Used for ejecting ammo, set dynamically
   "reloadParam" : false,	//false for reloadammo secondary ejecting ammo, [reload_amount,reload_cost,cooldown] for reloadammo reloading the gun (eg, for reloading one bullet for 20 energy every 2 seconds it will look like [1,20,2])
 
-  "animation" : "/items/active/weapons/tennobound/tenno-kohmak/tenno-kohmak.animation",
+  "animation" : "/items/active/weapons/tennobound/tenno-grakata/tenno-grakata.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "tenno-kohmak.png",
+    "middle" : "tenno-grakata.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-kohmak/tenno-kohmak-flash.png"
+    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-grakata/tenno-grakata-flash.png"
   },
   "animationCustom" : {
 	"animatedParts":{
@@ -95,15 +95,15 @@
       }
 	},
     "sounds" : {
-      "fire" 		: [ "/items/active/weapons/tennobound/tenno-kohmak/tenno-kohmak.ogg" ],
+      "fire" 		: [ "/items/active/weapons/tennobound/tenno-grakata/tenno-grakata.ogg" ],
 	  "empty"		: [ "/sfx/gun/reload/machinepistol_reload_clip1.ogg" ],
       "switchAmmo" 	: [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
     }
   },
 
 
-  "baseOffset" : [0.45, 0.25],			//Offsets are 0.125 per pixel
-  "muzzleOffset" : [1.125, 0.25],		//Offsets are 0.125 per pixel
+  "baseOffset" : [0.575, -0.125],			//Offsets are 0.125 per pixel
+  "muzzleOffset" : [1.375, 0.625],		//Offsets are 0.125 per pixel
   "handGrip" : "inside",
   "scripts" : ["/items/active/weapons/ranged/gunammo.lua"],
 
@@ -113,7 +113,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfireammo.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.2,
+    "fireTime" : 0.11,
     "baseDps" : 1,
 	"bonusDps" : 0,					//the parameter responsible for extra per-shot damage, introduced by ammo. Per shot damage gets spread over all the projectiles
     "energyUsage" : 0,
@@ -124,7 +124,7 @@
 	//"burstCount" : 3,
 	//"burstTime"	: 0.25,
 
-    "projectileType" : "tenno-kohmak-proj",
+    "projectileType" : "woodenbolt",
     "projectileParameters" : {
       "knockback" : 20
     },
@@ -143,17 +143,17 @@
         "weaponRotation" : 0,
         "twoHanded" : false,
   
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowRotate" : true,
+        "allowFlip" : true
       },
       "cooldown" : {
-        "duration" : 0.1,
+        "duration" : 0,
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
   
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowRotate" : true,
+        "allowFlip" : true
       }
     }
   },

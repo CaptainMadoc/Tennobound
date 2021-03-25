@@ -1,15 +1,16 @@
 {
-  "projectileName" : "tenno-shotgun-proj2",
-  "image" : "tenno-shotgun-proj2.png",
+  "projectileName" : "tenno-pistol-proj",
+  "image" : "tenno-pistol-proj.png",
   "animationCycle" : 0.25,
+  "fullbright" : true,
   "frameNumber" : 1,
   "pointLight" : false,
-  "timeToLive" : 1.25,
+  "timeToLive" : 1.5,
+  "lightColor" : [108, 36, 0],
   "actionOnHit" : [
     {
       "action" : "config",
       "file" : "/fx/gbbulletimpact/action.config"
     }
-  ],
-  "power" : 20.0
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "projectileName" : "tenno-shotgun-shredder-proj2",
+  "image" : "tenno-shotgun-shredder-proj2.png",
+  "physics" : "tenno-shotgun-shredder",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 1.25,
+  "lightColor" : [108, 36, 0],
+  "fullbright" : true,
+  "piercing" : true,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "power" : 20.0,
+  "speed" : 200
+}

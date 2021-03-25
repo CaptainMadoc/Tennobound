@@ -10,7 +10,7 @@
 
   "ammoType" : "tenno-shotgun",									//type of ammo, has to be same as itemname since it's used for giving the ammo back in case of unloading
   "ammoTag"  : "tenno-shotgun",												//ammo tag, has to match one of the tags in weapons "ammoTags" list
-  "ammoName" : "Fusion Cells",										//used for the tooltip
+  "ammoName" : "Shotgun Ammo",										//used for the tooltip
   "ammoIcon" : "/items/augments/ammo/tenno/tenno-shotgun-i.png",				//used for the tooltip
   "ammoProjectile" : "tenno-shotgun-proj",									//overrides projectile for the primary attack
   "ammoProjectileCount" : 1,										//overrides projectile count for the primary. Damage is divided evenly across the projectiles

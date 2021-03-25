@@ -1,0 +1,42 @@
+{
+  "projectileName" : "tenno-shotgun-shredder-proj",
+  "image" : "tenno-shotgun-shredder-proj.png",
+  "animationCycle" : 0.25,
+  "physics" : "tenno-shotgun-shredder",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "power" : 3.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "tenno-shotgun-shredder-proj2",
+      "inheritDamageFactor" : 0.33,
+      "inheritSpeedFactor" : 3,
+      "angleAdjust" : 10,
+      "fuzzAngle" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "tenno-shotgun-shredder-proj2",
+      "inheritDamageFactor" : 0.33,
+      "inheritSpeedFactor" : 3.5,
+      "angleAdjust" : 7.5,
+      "fuzzAngle" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "tenno-shotgun-shredder-proj1",
+      "inheritDamageFactor" : 0.34,
+      "inheritSpeedFactor" : 4,
+      "angleAdjust" : 5,
+      "fuzzAngle" : 0
+    }
+  ]
+}
