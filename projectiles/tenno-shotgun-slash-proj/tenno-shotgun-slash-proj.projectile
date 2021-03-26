@@ -1,8 +1,8 @@
 {
-  "projectileName" : "tenno-shotgun-shredder-proj",
-  "image" : "tenno-shotgun-shredder-proj.png",
+  "projectileName" : "tenno-shotgun-slash-proj",
+  "image" : "tenno-shotgun-slash-proj.png",
   "animationCycle" : 0.25,
-  "physics" : "tenno-shotgun-shredder",
+  "physics" : "tenno-shotgun-slash",
   "frameNumber" : 1,
   "pointLight" : false,
   "timeToLive" : 0.001,
@@ -16,7 +16,7 @@
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "tenno-shotgun-shredder-proj2",
+      "type" : "tenno-shotgun-slash-proj2",
       "inheritDamageFactor" : 0.33,
       "inheritSpeedFactor" : 5,
       "angleAdjust" : 1,
@@ -24,7 +24,7 @@
     },
     {
       "action" : "projectile",
-      "type" : "tenno-shotgun-shredder-proj2",
+      "type" : "tenno-shotgun-slash-proj2",
       "inheritDamageFactor" : 0.33,
       "inheritSpeedFactor" : 5.5,
       "angleAdjust" : 1,
@@ -32,7 +32,7 @@
     },
     {
       "action" : "projectile",
-      "type" : "tenno-shotgun-shredder-proj1",
+      "type" : "tenno-shotgun-slash-proj1",
       "inheritDamageFactor" : 0.34,
       "inheritSpeedFactor" : 6,
       "angleAdjust" : 1,

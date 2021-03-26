@@ -3,7 +3,7 @@
   "price" : 5,
   "rarity" : "Common",
   "tooltipKind" : "ammoitem",
-  "category" : "Bolt",
+  "category" : "Shotgun",
   "inventoryIcon" : "tenno-shotgun-i.png",
   "description" : "",
   "shortdescription" : "Shotgun Ammo",

@@ -1,7 +1,7 @@
     [
       {
         "op" : "add",
-        "path" : "/tenno-shotgun-shredder",
+        "path" : "/tenno-shotgun-slash",
         "value" : {
 		  "mass" : 1,
           "gravityMultiplier" : 0.5,

@@ -1,7 +1,7 @@
 {
-  "projectileName" : "tenno-shotgun-shredder-proj2",
-  "image" : "tenno-shotgun-shredder-proj2.png",
-  "physics" : "tenno-shotgun-shredder",
+  "projectileName" : "tenno-shotgun-slash-proj1",
+  "image" : "tenno-shotgun-slash-proj1.png",
+  "physics" : "tenno-shotgun-slash",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "pointLight" : false,

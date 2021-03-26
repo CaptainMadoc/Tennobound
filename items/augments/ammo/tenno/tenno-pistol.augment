@@ -3,7 +3,7 @@
   "price" : 5,
   "rarity" : "Common",
   "tooltipKind" : "ammoitem",
-  "category" : "Bolt",
+  "category" : "Pistol",
   "inventoryIcon" : "tenno-pistol-i.png",
   "description" : "",
   "shortdescription" : "Pistol Ammo",

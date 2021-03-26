@@ -3,7 +3,7 @@
   "price" : 5,
   "rarity" : "Common",
   "tooltipKind" : "ammoitem",
-  "category" : "Bolt",
+  "category" : "Rifle",
   "inventoryIcon" : "tenno-rifle-i.png",
   "description" : "",
   "shortdescription" : "Rifle Ammo",
