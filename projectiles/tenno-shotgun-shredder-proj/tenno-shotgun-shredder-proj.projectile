@@ -18,25 +18,25 @@
       "action" : "projectile",
       "type" : "tenno-shotgun-shredder-proj2",
       "inheritDamageFactor" : 0.33,
-      "inheritSpeedFactor" : 3,
-      "angleAdjust" : 10,
+      "inheritSpeedFactor" : 5,
+      "angleAdjust" : 1,
       "fuzzAngle" : 2
     },
     {
       "action" : "projectile",
       "type" : "tenno-shotgun-shredder-proj2",
       "inheritDamageFactor" : 0.33,
-      "inheritSpeedFactor" : 3.5,
-      "angleAdjust" : 7.5,
+      "inheritSpeedFactor" : 5.5,
+      "angleAdjust" : 1,
       "fuzzAngle" : 2
     },
     {
       "action" : "projectile",
       "type" : "tenno-shotgun-shredder-proj1",
       "inheritDamageFactor" : 0.34,
-      "inheritSpeedFactor" : 4,
-      "angleAdjust" : 5,
-      "fuzzAngle" : 0
+      "inheritSpeedFactor" : 6,
+      "angleAdjust" : 1,
+      "fuzzAngle" : 2
     }
   ]
 }

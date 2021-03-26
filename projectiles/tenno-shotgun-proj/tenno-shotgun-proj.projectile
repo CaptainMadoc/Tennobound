@@ -17,40 +17,40 @@
       "action" : "projectile",
       "type" : "tenno-shotgun-proj2",
       "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 0.6,
-      "angleAdjust" : 16,
+      "inheritSpeedFactor" : 0.8,
+      "angleAdjust" : 15,
       "fuzzAngle" : 2
     },
 	{
       "action" : "projectile",
       "type" : "tenno-shotgun-proj2",
       "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 0.7,
-      "angleAdjust" : 12,
+      "inheritSpeedFactor" : 0.85,
+      "angleAdjust" : 10,
       "fuzzAngle" : 2
     },
 	{
       "action" : "projectile",
       "type" : "tenno-shotgun-proj2",
       "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 0.8,
-      "angleAdjust" : 8,
-      "fuzzAngle" : 2
-    },
-    {
-      "action" : "projectile",
-      "type" : "tenno-shotgun-proj2",
-      "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 0.9,
-      "angleAdjust" : 4,
+      "angleAdjust" : 5,
       "fuzzAngle" : 2
     },
     {
       "action" : "projectile",
       "type" : "tenno-shotgun-proj2",
       "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 0.9,
-      "angleAdjust" : -4,
+      "inheritSpeedFactor" : 0.95,
+      "angleAdjust" : 2,
+      "fuzzAngle" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "tenno-shotgun-proj2",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.95,
+      "angleAdjust" : -2,
       "fuzzAngle" : 2
     },
     {
@@ -58,23 +58,23 @@
       "type" : "tenno-shotgun-proj2",
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 0.8,
-      "angleAdjust" : -8,
+      "angleAdjust" : -5,
       "fuzzAngle" : 2
     },
     {
       "action" : "projectile",
       "type" : "tenno-shotgun-proj2",
       "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 0.7,
-      "angleAdjust" : -12,
+      "inheritSpeedFactor" : 0.85,
+      "angleAdjust" : -10,
       "fuzzAngle" : 2
     },
     {
       "action" : "projectile",
       "type" : "tenno-shotgun-proj2",
       "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 0.6,
-      "angleAdjust" : -16,
+      "inheritSpeedFactor" : 0.8,
+      "angleAdjust" : -15,
       "fuzzAngle" : 2
     },
     {
@@ -83,7 +83,7 @@
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 1,
       "angleAdjust" : 0,
-      "fuzzAngle" : 0
+      "fuzzAngle" : 2
     }
   ]
 }

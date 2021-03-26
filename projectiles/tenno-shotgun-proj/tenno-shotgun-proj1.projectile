@@ -5,6 +5,8 @@
   "frameNumber" : 1,
   "pointLight" : false,
   "timeToLive" : 1.25,
+  "lightColor" : [255, 100, 26],
+  "fullbright" : true,
   "actionOnHit" : [
     {
       "action" : "config",
