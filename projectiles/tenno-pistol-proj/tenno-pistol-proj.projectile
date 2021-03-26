@@ -6,11 +6,12 @@
   "frameNumber" : 1,
   "pointLight" : false,
   "timeToLive" : 1.5,
-  "lightColor" : [108, 36, 0],
+  "lightColor" : [172, 26, 9],
   "actionOnHit" : [
     {
       "action" : "config",
       "file" : "/fx/gbbulletimpact/action.config"
     }
-  ]
+  ],
+  "speed" : 90
 }
