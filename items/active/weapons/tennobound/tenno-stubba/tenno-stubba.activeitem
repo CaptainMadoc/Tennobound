@@ -1,18 +1,18 @@
 {
-  "itemName" : "tenno-grakata",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
+  "itemName" : "tenno-stubba",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
   "price" : 150,
-  "inventoryIcon" : "tenno-grakata-i.png",
+  "inventoryIcon" : "tenno-stubba-i.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "",
-  "shortdescription" : "Grakata",
+  "shortdescription" : "Stubba",
   "level" : 1,
   "tooltipKind" : "ammogun",//custom tooltip, values set by the .lua
   "category" : "uniqueWeapon",
   "itemTags" : ["weapon","ranged","pistol"],
   "twoHanded" : false,
   
-  "ammoMax" : 800,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
+  "ammoMax" : 399,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
   "ammoAmount" : 0,			//Holds the current amount of ammo. Mostly set dynamically
   "usesAmmo" : true,		//Used by ammo to determine if it should bother trying to load into the gun
   "ammoTags" : ["tenno-pistol"],	//Tags, specifying the kind of ammo the gun takes
@@ -25,12 +25,12 @@
   "extraAmmoList" : [],		//Used for ejecting ammo, set dynamically
   "reloadParam" : false,	//false for reloadammo secondary ejecting ammo, [reload_amount,reload_cost,cooldown] for reloadammo reloading the gun (eg, for reloading one bullet for 20 energy every 2 seconds it will look like [1,20,2])
 
-  "animation" : "/items/active/weapons/tennobound/tenno-grakata/tenno-grakata.animation",
+  "animation" : "/items/active/weapons/tennobound/tenno-stubba/tenno-stubba.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "tenno-grakata.png",
+    "middle" : "tenno-stubba.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-grakata/tenno-grakata-flash.png"
+    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-stubba/tenno-stubba-flash.png"
   },
   "animationCustom" : {
 	"animatedParts":{
@@ -95,15 +95,15 @@
       }
 	},
     "sounds" : {
-      "fire" 		: [ "/items/active/weapons/tennobound/tenno-grakata/tenno-grakata.ogg" ],
+      "fire" 		: [ "/items/active/weapons/tennobound/tenno-stubba/tenno-stubba.ogg" ],
 	  "empty"		: [ "/sfx/gun/reload/machinepistol_reload_clip1.ogg" ],
       "switchAmmo" 	: [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
     }
   },
 
 
-  "baseOffset" : [0.7, -0.125],			//Offsets are 0.125 per pixel
-  "muzzleOffset" : [1.125, 0.7],		//Offsets are 0.125 per pixel
+  "baseOffset" : [0.875, -0.125],			//Offsets are 0.125 per pixel
+  "muzzleOffset" : [0.625, 0.625],		//Offsets are 0.125 per pixel
   "handGrip" : "inside",
   "scripts" : ["/items/active/weapons/ranged/gunammo.lua"],
 
@@ -113,7 +113,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfireammo.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.05,
+    "fireTime" : 0.156,
     "baseDps" : 1,
 	"bonusDps" : 0,					//the parameter responsible for extra per-shot damage, introduced by ammo. Per shot damage gets spread over all the projectiles
     "energyUsage" : 0,
@@ -139,7 +139,7 @@
       },
       "fire" : {
         "duration" : 0,
-        "armRotation" : 1,
+        "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
   
@@ -148,7 +148,7 @@
       },
       "cooldown" : {
         "duration" : 0,
-        "armRotation" : 1,
+        "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
   
