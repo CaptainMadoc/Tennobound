@@ -1,0 +1,17 @@
+{
+  "projectileName" : "tenno-energy-proj",
+  "image" : "tenno-energy-proj.png",
+  "animationCycle" : 0.25,
+  "fullbright" : true,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 1.5,
+  "lightColor" : [172, 26, 9],
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "speed" : 90
+}
