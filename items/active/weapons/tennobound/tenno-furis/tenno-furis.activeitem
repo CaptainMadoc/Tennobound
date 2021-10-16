@@ -1,11 +1,11 @@
 {
-  "itemName" : "tenno-cestra",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
+  "itemName" : "tenno-furis",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
   "price" : 150,
-  "inventoryIcon" : "tenno-cestra-i.png",
+  "inventoryIcon" : "tenno-furis-i.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "",
-  "shortdescription" : "Cestra",
+  "shortdescription" : "Furis",
   "level" : 1,
   "tooltipKind" : "ammogun",//custom tooltip, values set by the .lua
   "category" : "uniqueWeapon",
@@ -25,12 +25,12 @@
   "extraAmmoList" : [],		//Used for ejecting ammo, set dynamically
   "reloadParam" : false,	//false for reloadammo secondary ejecting ammo, [reload_amount,reload_cost,cooldown] for reloadammo reloading the gun (eg, for reloading one bullet for 20 energy every 2 seconds it will look like [1,20,2])
 
-  "animation" : "/items/active/weapons/tennobound/tenno-cestra/tenno-cestra.animation",
+  "animation" : "/items/active/weapons/tennobound/tenno-furis/tenno-furis.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "tenno-cestra.png",
+    "middle" : "tenno-furis.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-cestra/tenno-cestra-flash.png"
+    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-furis/tenno-furis-flash.png"
   },
   "animationCustom" : {
 	"animatedParts":{
@@ -95,7 +95,7 @@
       }
 	},
     "sounds" : {
-      "fire" 		: [ "/items/active/weapons/tennobound/tenno-cestra/tenno-cestra.ogg" ],
+      "fire" 		: [ "/items/active/weapons/tennobound/tenno-furis/tenno-furis.ogg" ],
 	  "empty"		: [ "/sfx/gun/reload/machinepistol_reload_clip1.ogg" ],
       "switchAmmo" 	: [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
     }
@@ -117,7 +117,7 @@
     "baseDps" : 1,
 	"bonusDps" : 0,					//the parameter responsible for extra per-shot damage, introduced by ammo. Per shot damage gets spread over all the projectiles
     "energyUsage" : 0,
-    "inaccuracy" : 0.025,
+    "inaccuracy" : 0.1,
 
     "projectileCount" : 1,
     "fireType" : "auto", //burst
