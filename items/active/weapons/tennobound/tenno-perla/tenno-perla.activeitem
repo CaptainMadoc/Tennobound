@@ -1,21 +1,21 @@
 {
-  "itemName" : "tenno-tysis",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
+  "itemName" : "tenno-snipetron",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
   "price" : 150,
-  "inventoryIcon" : "tenno-tysis-i.png",
+  "inventoryIcon" : "tenno-snipetron-i.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "",
-  "shortdescription" : "Tysis",
+  "shortdescription" : "Snipetron",
   "level" : 1,
   "tooltipKind" : "ammogun",//custom tooltip, values set by the .lua
   "category" : "uniqueWeapon",
   "itemTags" : ["weapon","ranged","pistol"],
-  "twoHanded" : false,
+  "twoHanded" : true,
   
-  "ammoMax" : 210,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
+  "ammoMax" : 100,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
   "ammoAmount" : 0,			//Holds the current amount of ammo. Mostly set dynamically
   "usesAmmo" : true,		//Used by ammo to determine if it should bother trying to load into the gun
-  "ammoTags" : ["tenno-infested-pistol"],	//Tags, specifying the kind of ammo the gun takes
+  "ammoTags" : ["tenno-energy-rifle"],	//Tags, specifying the kind of ammo the gun takes
   "ammoName" : "",			//Used by the tooltip, set by ammo
   "ammoType" : "",			//Holds the name of currently used ammo item
   "ammoCasing" : false,		//Holds the name of casing item to be ejected
@@ -25,12 +25,12 @@
   "extraAmmoList" : [],		//Used for ejecting ammo, set dynamically
   "reloadParam" : false,	//false for reloadammo secondary ejecting ammo, [reload_amount,reload_cost,cooldown] for reloadammo reloading the gun (eg, for reloading one bullet for 20 energy every 2 seconds it will look like [1,20,2])
 
-  "animation" : "/items/active/weapons/tennobound/tenno-tysis/tenno-tysis.animation",
+  "animation" : "/items/active/weapons/tennobound/tenno-snipetron/tenno-snipetron.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "tenno-tysis.png",
+    "middle" : "tenno-snipetron.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-tysis/tenno-tysis-flash.png"
+    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-snipetron/tenno-snipetron-flash.png"
   },
   "animationCustom" : {
 	"animatedParts":{
@@ -40,7 +40,7 @@
           "states" : {					//animations are handled by both gunammo.lua (ammo states) and gunfireammo.lua (firing state). If you want to change those, make a copy and work with that.
 			"firing" :{					//gun will transition to "firing" state each time you pull the trigger
 			  "frames" : 3,
-			  "cycle" : 0.07,
+			  "cycle" : 0.2,
 			  "mode" : "transition",
 			  "transition" : "empty"	//transition mode and animation is set up for the crossbow. may not work for everything
 			},
@@ -95,36 +95,36 @@
       }
 	},
     "sounds" : {
-      "fire" 		: [ "/items/active/weapons/tennobound/tenno-tysis/tenno-tysis.ogg" ],
+      "fire" 		: [ "/items/active/weapons/tennobound/tenno-snipetron/tenno-snipetron.ogg" ],
 	  "empty"		: [ "/sfx/gun/reload/machinepistol_reload_clip1.ogg" ],
       "switchAmmo" 	: [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
     }
   },
 
 
-  "baseOffset" : [1, 0.375],			//Offsets are 0.125 per pixel
-  "muzzleOffset" : [0.5, 0],		//Offsets are 0.125 per pixel
+  "baseOffset" : [1.325, 0.25],			//Offsets are 0.125 per pixel
+  "muzzleOffset" : [2.375, 0.3],		//Offsets are 0.125 per pixel
   "handGrip" : "inside",
   "scripts" : ["/items/active/weapons/ranged/gunammo.lua"],
 
-  "elementalType" : "poison",
+  "elementalType" : "physical",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfireammo.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.3,
+    "fireTime" : 1.5,
     "baseDps" : 1,
 	"bonusDps" : 0,					//the parameter responsible for extra per-shot damage, introduced by ammo. Per shot damage gets spread over all the projectiles
     "energyUsage" : 0,
-    "inaccuracy" : 0,
+    "inaccuracy" : 0.01,
 
     "projectileCount" : 1,
     "fireType" : "auto", //burst
-	"burstCount" : 4,
-	"burstTime"	: 0.06,
+	//"burstCount" : 3,
+	//"burstTime"	: 0.25,
 
-    "projectileType" : "tenno-arrow-pistol-proj",
+    "projectileType" : "woodenbolt",
     "projectileParameters" : {
       "knockback" : 20
     },
@@ -132,7 +132,7 @@
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : false,
+        "twoHanded" : true,
   
         "allowRotate" : true,
         "allowFlip" : true
@@ -141,7 +141,7 @@
         "duration" : 0,
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : false,
+        "twoHanded" : true,
   
         "allowRotate" : true,
         "allowFlip" : true
@@ -150,7 +150,7 @@
         "duration" : 0,
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : false,
+        "twoHanded" : true,
   
         "allowRotate" : true,
         "allowFlip" : true
