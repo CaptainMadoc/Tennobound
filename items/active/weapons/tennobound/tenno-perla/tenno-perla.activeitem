@@ -1,21 +1,21 @@
 {
-  "itemName" : "tenno-snipetron",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
+  "itemName" : "tenno-perla",	//this is an example weapon. Copy the folder to your mod (in appropriate location) and change "gasolariumcrossbow" for the name you want to use
   "price" : 150,
-  "inventoryIcon" : "tenno-snipetron-i.png",
+  "inventoryIcon" : "tenno-perla-i.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "",
-  "shortdescription" : "Snipetron",
+  "shortdescription" : "Perla",
   "level" : 1,
   "tooltipKind" : "ammogun",//custom tooltip, values set by the .lua
   "category" : "uniqueWeapon",
   "itemTags" : ["weapon","ranged","pistol"],
-  "twoHanded" : true,
+  "twoHanded" : false,
   
-  "ammoMax" : 100,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
+  "ammoMax" : 210,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
   "ammoAmount" : 0,			//Holds the current amount of ammo. Mostly set dynamically
   "usesAmmo" : true,		//Used by ammo to determine if it should bother trying to load into the gun
-  "ammoTags" : ["tenno-energy-rifle"],	//Tags, specifying the kind of ammo the gun takes
+  "ammoTags" : ["tenno-arrow-pistol"],	//Tags, specifying the kind of ammo the gun takes
   "ammoName" : "",			//Used by the tooltip, set by ammo
   "ammoType" : "",			//Holds the name of currently used ammo item
   "ammoCasing" : false,		//Holds the name of casing item to be ejected
@@ -25,12 +25,12 @@
   "extraAmmoList" : [],		//Used for ejecting ammo, set dynamically
   "reloadParam" : false,	//false for reloadammo secondary ejecting ammo, [reload_amount,reload_cost,cooldown] for reloadammo reloading the gun (eg, for reloading one bullet for 20 energy every 2 seconds it will look like [1,20,2])
 
-  "animation" : "/items/active/weapons/tennobound/tenno-snipetron/tenno-snipetron.animation",
+  "animation" : "/items/active/weapons/tennobound/tenno-perla/tenno-perla.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "tenno-snipetron.png",
+    "middle" : "tenno-perla.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-snipetron/tenno-snipetron-flash.png"
+    "muzzleFlash" : "/items/active/weapons/tennobound/tenno-perla/tenno-perla-flash.png"
   },
   "animationCustom" : {
 	"animatedParts":{
@@ -95,15 +95,15 @@
       }
 	},
     "sounds" : {
-      "fire" 		: [ "/items/active/weapons/tennobound/tenno-snipetron/tenno-snipetron.ogg" ],
+      "fire" 		: [ "/items/active/weapons/tennobound/tenno-perla/tenno-perla.ogg" ],
 	  "empty"		: [ "/sfx/gun/reload/machinepistol_reload_clip1.ogg" ],
       "switchAmmo" 	: [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
     }
   },
 
 
-  "baseOffset" : [1.325, 0.25],			//Offsets are 0.125 per pixel
-  "muzzleOffset" : [2.375, 0.3],		//Offsets are 0.125 per pixel
+  "baseOffset" : [1.5, 0.5],			//Offsets are 0.125 per pixel
+  "muzzleOffset" : [1.75, 0.375],		//Offsets are 0.125 per pixel
   "handGrip" : "inside",
   "scripts" : ["/items/active/weapons/ranged/gunammo.lua"],
 
@@ -113,7 +113,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfireammo.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 1.5,
+    "fireTime" : 0.8,
     "baseDps" : 1,
 	"bonusDps" : 0,					//the parameter responsible for extra per-shot damage, introduced by ammo. Per shot damage gets spread over all the projectiles
     "energyUsage" : 0,
@@ -132,7 +132,7 @@
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : true,
+        "twoHanded" : false,
   
         "allowRotate" : true,
         "allowFlip" : true
@@ -141,7 +141,7 @@
         "duration" : 0,
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : true,
+        "twoHanded" : false,
   
         "allowRotate" : true,
         "allowFlip" : true
@@ -150,7 +150,7 @@
         "duration" : 0,
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : true,
+        "twoHanded" : false,
   
         "allowRotate" : true,
         "allowFlip" : true
