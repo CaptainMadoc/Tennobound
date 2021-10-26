@@ -113,7 +113,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfireammo.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.125,
+    "fireTime" : 0.175,
     "baseDps" : 1,
 	"bonusDps" : 0,					//the parameter responsible for extra per-shot damage, introduced by ammo. Per shot damage gets spread over all the projectiles
     "energyUsage" : 0,
@@ -122,7 +122,7 @@
     "projectileCount" : 1,
     "fireType" : "burst", //burst
 	"burstCount" : 2,
-	"burstTime"	: 0.03,
+	"burstTime"	: 0.05,
 
     "projectileType" : "tenno-arrow-pistol-proj",
     "projectileParameters" : {
