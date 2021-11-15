@@ -1,10 +1,10 @@
 {
-  "projectileName" : "tenno-ballistic-riflehivel-proj1",
-  "image" : "tenno-ballistic-riflehivel-proj1.png",
+  "projectileName" : "tenno-ballistic-rifle-proj1",
+  "image" : "tenno-ballistic-rifle-proj1.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "pointLight" : false,
-  "timeToLive" : 2.5,
+  "timeToLive" : 1.5,
   "actionOnHit" : [
     {
       "action" : "config",

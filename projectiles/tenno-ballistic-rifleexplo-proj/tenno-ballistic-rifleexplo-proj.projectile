@@ -1,0 +1,23 @@
+{
+  "projectileName" : "tenno-ballistic-rifleexplo-proj",
+  "image" : "tenno-ballistic-rifleexplo-proj.png",
+  "animationCycle" : 0.25,
+  "fullbright" : true,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 1.5,
+  "lightColor" : [172, 26, 9],
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/tenno-ballistic-rifle-explo/tenno-ballistic-rifle-explo.config"
+    }
+  ],
+  "speed" : 90
+}

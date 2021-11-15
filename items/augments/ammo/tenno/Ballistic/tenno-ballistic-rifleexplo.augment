@@ -1,18 +1,18 @@
 {
-  "itemName" : "tenno-ballistic-riflehivel",
+  "itemName" : "tenno-ballistic-rifleexplo",
   "price" : 5,
   "rarity" : "Common",
   "tooltipKind" : "ammoitem",
   "category" : "Rifle",
-  "inventoryIcon" : "/items/augments/ammo/tenno/tenno-ballistic-riflehivel-i.png",
+  "inventoryIcon" : "/items/augments/ammo/tenno/tenno-ballistic-rifleexplo-i.png",
   "description" : "",
   "shortdescription" : "Rifle Ammo",
 
-  "ammoType" : "tenno-ballistic-riflehivel",									//type of ammo, has to be same as itemname since it's used for giving the ammo back in case of unloading
-  "ammoTag"  : "tenno-ballistic-riflehivel",												//ammo tag, has to match one of the tags in weapons "ammoTags" list
+  "ammoType" : "tenno-ballistic-rifleexplo",									//type of ammo, has to be same as itemname since it's used for giving the ammo back in case of unloading
+  "ammoTag"  : "tenno-ballistic-rifleexplo",												//ammo tag, has to match one of the tags in weapons "ammoTags" list
   "ammoName" : "Ballistic Rifle Ammo",										//used for the tooltip
-  "ammoIcon" : "/items/augments/ammo/tenno/tenno-ballistic-riflehivel-i.png",				//used for the tooltip
-  "ammoProjectile" : "tenno-ballistic-riflehivel-proj",									//overrides projectile for the primary attack
+  "ammoIcon" : "/items/augments/ammo/tenno/tenno-ballistic-rifleexplo-i.png",				//used for the tooltip
+  "ammoProjectile" : "tenno-ballistic-rifleexplo-proj",									//overrides projectile for the primary attack
   "ammoProjectileCount" : 1,										//overrides projectile count for the primary. Damage is divided evenly across the projectiles
   "ammoCount" : 1,													//determines how much ammo this item restores. The excess will be returned in items specified in "ammoType"
   "ammoDamage" : 10,													//damage per shot added by this type of ammo. This damage is split between all projectiles if projectile count is not 1
