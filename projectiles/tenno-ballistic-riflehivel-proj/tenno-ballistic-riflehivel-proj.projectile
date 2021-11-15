@@ -1,0 +1,24 @@
+{
+  "projectileName" : "tenno-ballistic-riflehivel-proj",
+  "image" : "tenno-ballistic-riflehivel-proj.png",
+  "animationCycle" : 0.25,
+  "fullbright" : true,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "lightColor" : [172, 26, 9],
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "tenno-ballistic-riflehivel-proj1",
+      "inheritDamageFactor" : 1.5,
+      "inheritSpeedFactor" : 3
+    }
+  ]
+}

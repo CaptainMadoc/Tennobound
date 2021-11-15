@@ -1,0 +1,14 @@
+{
+  "projectileName" : "tenno-ballistic-riflemulti-proj1",
+  "image" : "tenno-ballistic-riflemulti-proj1.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 1.5,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ]
+}
