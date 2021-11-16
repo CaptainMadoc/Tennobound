@@ -8,8 +8,8 @@ function init()
   
   script.setUpdateDelta(5)
 
-  self.tickDamagePercentage = 0.025
-  self.burn = util.interval(1.0, function()
+  self.tickDamagePercentage = 0.0005
+  self.burn = util.interval(0.1, function()
     status.applySelfDamageRequest({
         damageType = "IgnoresDef",
         damage = math.floor(status.resourceMax("health") * self.tickDamagePercentage) + 1,

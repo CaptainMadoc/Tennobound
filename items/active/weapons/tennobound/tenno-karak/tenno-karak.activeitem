@@ -15,7 +15,7 @@
   "ammoMax" : 540,			//Specifies how big the guns' magazine is. For now, consider all guns to have internal non-removable magazines
   "ammoAmount" : 0,			//Holds the current amount of ammo. Mostly set dynamically
   "usesAmmo" : true,		//Used by ammo to determine if it should bother trying to load into the gun
-  "ammoTags" : ["tenno-ballistic-rifleheat", "tenno-ballistic-rifleexplo", "tenno-ballistic-riflehivel", "tenno-ballistic-riflemulti", "tenno-ballistic-rifle"],	//Tags, specifying the kind of ammo the gun takes
+  "ammoTags" : ["tenno-ballistic-riflearrow", "tenno-ballistic-rifleheat", "tenno-ballistic-rifleexplo", "tenno-ballistic-riflemulti", "tenno-ballistic-rifle"],	//Tags, specifying the kind of ammo the gun takes
   "ammoName" : "",			//Used by the tooltip, set by ammo
   "ammoType" : "",			//Holds the name of currently used ammo item
   "ammoCasing" : false,		//Holds the name of casing item to be ejected

@@ -3,7 +3,7 @@
   "blockingStat" : "fireStatusImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 1,
+  "defaultDuration" : 3,
 
   "scripts" : [
     "tenno-status-heat.lua"

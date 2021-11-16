@@ -19,7 +19,7 @@
       "action" : "projectile",
       "type" : "tenno-ballistic-riflehivel-proj1",
       "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 4
+      "inheritSpeedFactor" : 5
     }
   ]
 }

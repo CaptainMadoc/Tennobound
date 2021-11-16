@@ -5,6 +5,7 @@
   "fullbright" : true,
   "frameNumber" : 1,
   "pointLight" : false,
+  "piercing" : true,
   "timeToLive" : 1.5,
   "lightColor" : [172, 26, 9],
   "actionOnHit" : [
