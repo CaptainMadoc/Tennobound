@@ -1,0 +1,24 @@
+{
+  "kind" : "tenno-ballistic-rifleheat-eff",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.0001,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    },
+    "particles" : [
+      [ "tenno-ballistic-rifleheat-eff" ]
+    ],
+    "sounds" : [ [ ] ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    }
+  }
+}

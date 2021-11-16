@@ -1,0 +1,16 @@
+{
+  "name" : "tenno-status-heat",
+  "blockingStat" : "fireStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "tenno-status-heat.lua"
+  ],
+
+  "animationConfig" : "tenno-status-heat.animation",
+
+  "label" : "Burning",
+  "icon" : "/interface/statuses/fire.png"
+}

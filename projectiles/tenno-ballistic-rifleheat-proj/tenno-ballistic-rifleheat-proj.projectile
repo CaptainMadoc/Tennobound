@@ -1,0 +1,22 @@
+{
+  "projectileName" : "tenno-ballistic-rifleheat-proj",
+  "image" : "tenno-ballistic-rifleheat-proj.png",
+  "animationCycle" : 0.25,
+  "fullbright" : true,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 1.5,
+  "lightColor" : [172, 26, 9],
+  "statusEffects" : [
+    "tenno-status-heat"
+  ],
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "speed" : 80,
+  "damageKind" : "fire",
+  "emitters" : [ "tenno-ballistic-rifleheat-eff" ]
+}
