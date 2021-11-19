@@ -1,0 +1,39 @@
+{
+  "projectileName" : "tenno-energy-riflemulti-proj",
+  "image" : "tenno-energy-riflemulti-proj.png",
+  "animationCycle" : 0.25,
+  "fullbright" : true,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 0.0,
+  "lightColor" : [172, 26, 9],
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "speed" : 150,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "tenno-energy-riflemulti-proj1",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1
+    },
+	{
+      "action" : "projectile",
+      "type" : "tenno-energy-riflemulti-proj2",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.85,
+      "angleAdjust" : 25
+    },
+	{
+      "action" : "projectile",
+      "type" : "tenno-energy-riflemulti-proj2",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.85,
+      "angleAdjust" : -25
+    }
+  ]
+}
