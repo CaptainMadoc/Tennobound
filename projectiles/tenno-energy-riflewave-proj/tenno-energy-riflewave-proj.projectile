@@ -1,0 +1,18 @@
+{
+  "projectileName" : "tenno-energy-riflewave-proj",
+  "image" : "tenno-energy-riflewave-proj.png",
+  "animationCycle" : 0.25,
+  "fullbright" : true,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 0.25,
+  "lightColor" : [172, 26, 9],
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "speed" : 150,
+  "emitters" : [ "daggerblue" ]
+}
