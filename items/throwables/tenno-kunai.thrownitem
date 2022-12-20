@@ -1,0 +1,30 @@
+{
+  "itemName" : "tenno-kunai",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "tenno-kunai.png",
+  "image" : "tenno-kunai.png",
+  "shortdescription" : "Throwing Knife",
+  "description" : "Kunai throwing daggers offer a silent alternative to the traditional sidearm. Perfect for assassins.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.05,
+
+  "projectileType" : "tenno-kunai",
+  "projectileConfig" : {
+    "speed" : 70,
+    "power" : 20,
+    "knockback" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}
